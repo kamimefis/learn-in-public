@@ -1,0 +1,131 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Camila
+    last_name: Lobos
+    
+    # Define yourself in 4-5 words
+    motto: Inhabitant of this world
+    
+    # focus
+    focus: Web development
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Autodidact. I've made basics projects in javascript, mini games, among others.
+      I have used APIs, libraries.
+      Some languages ​​I have worked with: Javascript, Mysql, Java.
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: kamimefis
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: High intermediate
+
+    # Interests or hobies
+    interests:
+      - item: Walking
+
+      - item: Reading
+
+      - item: Gardening
+
+# Your previous education
+education:
+    - degree: Data Scientist
+      university: Academia Desafío Latam
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2019 - 2019
+      details: |
+        Data Science and Machine Learning
+    - degree: technician
+      university: Inacap
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2015 - 2016
+      details: |  
+      Mechanics: Hydraulic and pneumatic circuits.
+# Your previous job experiences or voluntier
+experiences:
+    - role: junior analyst ti
+      time: 2019 - 2020
+      company: Tata Consultancy Services
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |  
+      Certified in rpa with: Uipath
+      Mysql: database bootcamp
+      National education monitoring project: Simce
+# Your project portfolio
+projects:
+    intro: >
+      Some little projects 
+    assignments:
+      - title: Maze game!
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/kamimefis/Maze_game"
+        tagline: Maze game in javascript."
+
+      - title: Timer
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/kamimefis/Timer"
+        tagline: "Timer in javascript."
+
+      - title: Movie fight!
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/kamimefis/Movie_Fight"
+        tagline: "Project that compares two movies using api"
+
+      - title: Secret message
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/kamimefis/Secret_messagehttps://github.com/kamimefis/Secret_message"
+        tagline: "Write a secret message and send it to your friends."
+
+      - title: Join us
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/kamimefis/Join_Us"
+        tagline: "little project that connects to database (Mysql) and add users"
+
+skills:
+    toolset:
+      - name: Javascript & jQuery
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: MySql
+        level: 80%
